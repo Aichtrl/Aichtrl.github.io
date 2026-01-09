@@ -103,4 +103,4 @@ theme: butterfly
 deploy:
   type: git
   repo: git@github.com:Aichtrl/Aichtrl.github.io.git
-  branch: main  # 这里必须是 main (或 master)，GitHub Pages 默认展示这个分支
+  branch: gh-pages
