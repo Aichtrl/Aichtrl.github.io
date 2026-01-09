@@ -18,10 +18,12 @@ nav:
   fixed: false
 
 menu:
-  # Home: / || fas fa-home
-  # List||fas fa-list:
-  #   Music: /music/ || fas fa-music
-  #   Movie: /movies/ || fas fa-video
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  # 你的分类和标签页需要先在 source 目录下 hexo new page "categories" 创建对应页面
+  分类: /categories/ || fas fa-folder-open
+  标签: /tags/ || fas fa-tags
+  关于我: /about/ || fas fa-heart
 
 # --------------------------------------
 # Code Blocks Settings
@@ -46,6 +48,8 @@ code_blocks:
 # Formal:
 #   icon: link || the description || color
 social:
+  GitHub: https://github.com/Aichtrl || fab fa-github || #24292e
+  Email:  1602240210@csu.edu.cn || fas fa-envelope || #49b1f5
   # fab fa-github: https://github.com/xxxxx || Github || '#24292e'
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email || '#4a7dbe'
 
@@ -53,11 +57,11 @@ social:
 # Image Settings
 # --------------------------------------
 
-favicon: /img/favicon.png
+favicon: /img/Elon_M.jpg
 
 avatar:
-  img: /img/butterfly-icon.png
-  effect: false
+  img: /img/Elon_M.jpg
+  effect: true
 
 # Disable all banner images
 disable_top_img: false
@@ -275,7 +279,7 @@ aside:
   hide: false
   # Show the button to hide the aside in bottom right button
   button: true
-  mobile: true
+  mobile: false
   # Position: left / right
   position: right
   display:
@@ -289,10 +293,10 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/Aichtrl
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 欢迎来到我的博客，这里记录生活与技术。
   card_recent_post:
     enable: true
     # If set 0 will show all
