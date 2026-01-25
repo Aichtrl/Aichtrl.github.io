@@ -556,7 +556,7 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: /img/default.png
+  banner_img: /img/Haikei-Goodbye-Sayonara.jpg
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
@@ -584,12 +584,12 @@ post:
     # 字数统计
     # Word count
     wordcount:
-      enable: true
+      enable: false
 
     # 估计阅读全文需要的时长
     # Estimated reading time
     min2read:
-      enable: true
+      enable: false
       # 每个字词的长度，建议：中文≈2，英文≈5，中英混合可自行调节
       # Average word length (chars count in word), ZH ≈ 2, EN ≈ 5
       awl: 2
@@ -600,7 +600,7 @@ post:
     # 浏览量计数
     # Number of visits
     views:
-      enable: true
+      enable: false
       # 统计数据来源
       # Data Source
       # Options: busuanzi | leancloud | umami
@@ -926,7 +926,7 @@ discuss:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.png
+  banner_img: /img/Haikei-Goodbye-Sayonara.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -937,7 +937,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/Haikei-Goodbye-Sayonara.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -966,7 +966,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/Haikei-Goodbye-Sayonara.jpg
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -983,7 +983,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: /img/Haikei-Goodbye-Sayonara.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   avatar: /img/Elon_Musk.jpg
@@ -1006,7 +1006,7 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: /img/default.png
+  banner_img: /img/Haikei-Goodbye-Sayonara.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
