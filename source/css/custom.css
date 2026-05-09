@@ -1,0 +1,37 @@
+/* 引入霞鹜文楷字体 */
+@import url('https://npm.elemecdn.com/lxgw-wenkai-screen-webfont/style.css');
+
+/* 全局应用字体 */
+body, article {
+  font-family: "LXGW WenKai Screen", sans-serif !important;
+}
+
+
+
+
+/* 首页文章卡片半透明 */
+.index-card {
+    background-color: rgba(255, 255, 255, 0.85) !important;
+    backdrop-filter: blur(10px); /* 毛玻璃模糊 */
+    border-radius: 15px; /* 圆角 */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 详情页文章背景半透明 */
+.post-content, .markdown-body {
+    background-color: rgba(255, 255, 255, 0.85) !important;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+/* 全局背景图 (如果主题配置没生效，可以在这里强制) */
+body {
+    background: url('/img/bg_all.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* 暗色模式下的适配 (可选) */
+[data-user-color-scheme="dark"] .index-card {
+    background-color: rgba(30, 30, 30, 0.8) !important;
+}
+

@@ -1,0 +1,30 @@
+---
+title: about
+date: 2026-01-25 01:11:24
+comment: true 
+---
+
+
+### 欢迎交流！
+如果你有任何问题、建议，或者只是想交个朋友，可以通过以下方式找到我：
+
+::: info
+**📧 电子邮箱**
+[1602240210@csu.edu.cn](mailto:1602240210@csu.edu.cn)
+:::
+
+::: success
+**💬 社交媒体**
+**GitHub**: [Aichtrl](https://github.com/Aichtrl)
+
+:::
+
+**关于合作：**
+如果你有项目合作意向，请在邮件中注明来意，我会尽快回复。
+
+> “Stay hungry, Stay foolish.”
+
+
+
+
+
