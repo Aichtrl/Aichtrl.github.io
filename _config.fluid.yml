@@ -576,7 +576,7 @@ post:
     # Post date, based on `date` field in front-matter, if not set, based on create date of .md file
     date:
       enable: true
-      format: "MMM D, YYYY"
+      format: "YYYY年MM月DD日 HH:mm"
 
     # 字数统计
     # Word count
