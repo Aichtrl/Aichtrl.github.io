@@ -20,15 +20,6 @@
   </url>
   
   <url>
-    <loc>https://aichtrl.github.io/2026/05/09/So-this-is-a-long-overdue-start/</loc>
-    
-    <lastmod>2026-06-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://aichtrl.github.io/2026/07/17/outlook%E5%85%B3%E8%81%94%E4%B8%AD%E5%8D%97%E5%A4%A7%E5%AD%A6%E9%82%AE%E7%AE%B1/</loc>
     
     <lastmod>2026-07-17</lastmod>
@@ -57,6 +48,15 @@
   
   <url>
     <loc>https://aichtrl.github.io/about/index.html</loc>
+    
+    <lastmod>2026-06-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://aichtrl.github.io/2026/05/09/So-this-is-a-long-overdue-start/</loc>
     
     <lastmod>2026-06-27</lastmod>
     
