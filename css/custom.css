@@ -23,7 +23,6 @@ body {
   background: var(--page-bg) !important;
   color: var(--text);
   font-weight: 500;
-  -webkit-text-stroke: 0.12px currentColor;
   font-family: Georgia, "Times New Roman", "Noto Serif SC", "Songti SC", serif !important;
   font-size: 1.05rem;
   line-height: 1.65;
@@ -774,7 +773,6 @@ footer {
   border: 1px solid var(--border);
   border-radius: 50%;
   cursor: pointer;
-  -webkit-text-stroke: 0;
 }
 #color-toggle-btn .iconfont {
   display: inline-block !important;
