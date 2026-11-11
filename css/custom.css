@@ -121,25 +121,25 @@ main {
   padding-right: 1.5rem;
 }
 
-.navbar-dark .navbar-brand,
-.navbar-dark .nav-link {
+.navbar .navbar-brand,
+.navbar .nav-link {
   color: var(--text) !important;
   font-size: 1rem;
   padding: 0.25rem 0.75rem;
 }
 
-.navbar-dark .navbar-brand {
+.navbar .navbar-brand {
   padding-left: 0;
   margin-right: auto;
 }
 
-.navbar-dark .navbar-brand strong {
+.navbar .navbar-brand strong {
   font-weight: 500;
   font-size: 1.05rem;
   letter-spacing: -0.01em;
 }
 
-.navbar-dark .nav-link:hover {
+.navbar .nav-link:hover {
   color: var(--text) !important;
   text-decoration: underline;
 }
@@ -161,7 +161,7 @@ main {
   padding: 0.25rem;
 }
 
-.navbar-dark .navbar-toggler .animated-icon span {
+.navbar .navbar-toggler .animated-icon span {
   background: var(--text);
 }
 
@@ -789,4 +789,17 @@ footer {
 }
 @media (max-width: 991.98px) {
   #navbarSupportedContent { order: 4; }
+}
+/* Keep navigation dimensions stable when Fluid changes its scroll classes. */
+.navbar.scrolling-navbar,
+.navbar.scrolling-navbar.top-nav-collapse {
+  padding: 0.75rem 0;
+  transition: background-color 0.2s ease-in-out;
+  will-change: auto;
+}
+@media (max-width: 768px) {
+  .navbar.scrolling-navbar,
+  .navbar.scrolling-navbar.top-nav-collapse {
+    padding: 1rem 0 0.6rem;
+  }
 }
