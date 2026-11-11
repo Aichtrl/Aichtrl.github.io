@@ -21,7 +21,7 @@
   <meta name="author" content="Aichtrl">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Ubuntu 系统，陆陆续续折腾过几次了，前段时间刚好有机器人比赛，总结下遇到的问题和解决办法。印象深的只有几个了。">
+    <meta name="description" content="Ubuntu 系统我已经折腾过几次了，前段时间参加了机器人比赛，总结下遇到的问题和解决办法。印象深的只有以下几个了。">
   
   
   
@@ -187,7 +187,7 @@
               <p id="updated-time" class="note note-info" style="">
                 
                   
-                    本文最后更新于 7月 15, 2026
+                    本文最后更新于 11月 11, 2026
                   
                 
               </p>
@@ -205,20 +205,20 @@
   
 </header>
 
-                <p>Ubuntu 系统，陆陆续续折腾过几次了，前段时间刚好有机器人比赛，总结下遇到的问题和解决办法。印象深的只有几个了。</p>
+                <p>Ubuntu 系统我已经折腾过几次了，前段时间参加了机器人比赛，总结下遇到的问题和解决办法。印象深的只有以下几个了。</p>
 <span id="more"></span>
 
 <hr>
 <h2>1. <code>nvidia-smi</code> 提示 no device were found</h2><p>安装好系统后，输入 <code>nvidia-smi</code>，提示 <code>no device were found</code>。</p>
 <p><strong>解决：</strong> 50 系显卡 Blackwell 架构只支持 Linux 下的<strong>开源版本</strong>内核，不能选闭源的。具体做法：在「软件与更新」→「附加驱动程序」中选择带有 <strong><code>open</code></strong> 的驱动。</p>
-<h2>2. 装完显卡驱动，网卡驱动没了</h2><p>重启按 <code>Esc</code> 或 <code>Shift</code> 进入 <code>GRUB</code> 菜单，选择 <em>Advanced options for Ubuntu</em>，选择较低版本内核启动。如果恢复，说明新内核缺少组件，进入系统后执行：</p>
+<h2>2. 装完显卡驱动，发现网卡驱动消失</h2><p>重启按 <code>Esc</code> 或 <code>Shift</code> 进入 <code>GRUB</code> 菜单，选择 <em>Advanced options for Ubuntu</em>，选择较低版本内核启动。如果恢复，说明新内核缺少组件，进入系统后执行：</p>
 <div class="code-wrapper"><pre><code class="hljs bash"><span class="hljs-comment"># 确认当前内核版本并安装缺失的网卡：</span>
 <span class="hljs-built_in">sudo</span> apt update
 <span class="hljs-built_in">sudo</span> apt install linux-modules-extra-$(<span class="hljs-built_in">uname</span> -r)
 <span class="hljs-built_in">sudo</span> apt upgrade</code></pre></div>
 
 <p>完成后重启进入新内核即可。</p>
-<h2>3. 外接显示器有画面，笔记本不显示</h2><p>开<strong>独显直连</strong>。</p>
+<h2>3. 外接显示器有画面，笔记本不显示</h2><p>打开<strong>独显直连</strong>。</p>
 
                 
               </div>
