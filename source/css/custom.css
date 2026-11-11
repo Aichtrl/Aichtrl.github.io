@@ -836,3 +836,12 @@ footer {
     margin-left: -1rem;
   }
 }
+@media (min-width: 992px) {
+  .navbar .navbar-brand {
+    position: absolute;
+    left: 8vw;
+    top: 50%;
+    margin-left: 0;
+    transform: translateY(-50%);
+  }
+}
