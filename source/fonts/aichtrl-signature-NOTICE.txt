@@ -1,0 +1,4 @@
+Aichtrl Signature is a modified seven-letter subset of Pacifico.
+The upper curves have been gently shortened and their rightward lean reduced.
+Original copyright and license terms are included in pacifico-OFL.txt.
+This derivative font is distributed under the SIL Open Font License 1.1.

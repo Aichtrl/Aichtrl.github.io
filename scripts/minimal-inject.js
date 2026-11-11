@@ -17,6 +17,11 @@ hexo.extend.filter.register('theme_inject', (injects) => {
 
 // Keep the theme switch available outside the collapsed mobile menu.
 hexo.extend.filter.register('after_render:html', (html) => {
+  const wordmark = '<span class="brand-wordmark" aria-label="Aichtrl">' +
+    Array.from('Aichtrl', (letter) => '<span aria-hidden="true">' + letter + '</span>').join('') +
+    '</span>';
+  html = html.replace(/(<a class="navbar-brand"[^>]*>)\s*<strong>[^<]*<\/strong>/,
+    '$1' + wordmark);
   const toggle = /<li class="nav-item" id="color-toggle-btn">[\s\S]*?<\/li>/;
   if (!toggle.test(html)) return html;
   const button = '<button id="color-toggle-btn" type="button" aria-label="切换日间或夜间模式" title="切换日间 / 夜间模式"><i class="iconfont icon-dark" id="color-toggle-icon" aria-hidden="true"></i></button>';
