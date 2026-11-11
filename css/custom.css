@@ -801,3 +801,32 @@ footer {
     padding: 1rem 0 0.6rem;
   }
 }
+@font-face {
+  font-family: "Aichtrl Signature";
+  src: url("/fonts/aichtrl-signature.ttf?v=3") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+.navbar .navbar-brand {
+  margin-left: -0.75rem;
+}
+.brand-wordmark {
+  display: inline-block;
+  font-family: "Aichtrl Signature", Georgia, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.9rem;
+  line-height: 1;
+  letter-spacing: 0;
+}
+.brand-wordmark > span:nth-child(1) { color: #e5684b; }
+.brand-wordmark > span:nth-child(2) { color: #f39a36; }
+.brand-wordmark > span:nth-child(3) { color: #e9be2c; }
+.brand-wordmark > span:nth-child(4) { color: #65ad47; }
+.brand-wordmark > span:nth-child(5) { color: #22a6b5; }
+.brand-wordmark > span:nth-child(6) { color: #002fa7; }
+.brand-wordmark > span:nth-child(7) { color: #a45aaf; }
+[data-user-color-scheme="dark"] .brand-wordmark > span:nth-child(6) {
+  color: #567bdf;
+}
